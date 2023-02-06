@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+</head>
+<body>
+    
+    <header class="container-fluid text-center">
+        <h1 class="display-1">ETHERS JS</h1> <span class="text-secondary">EXAMPLE</span>
+        <hr>
+    </header>
+
+    <main class="container my-5 text-center">
+        <button id="connect" class="btn btn-outline-primary">Connect</button>
+        <b id="add" class="lead">0x0...0</b>
+    </main>
+    
+    <div class="row p-5 mx-5 rounded shadow-lg text-center" style="border: 1px dashed #bababa;background:#dddddd;">
+        <div class="col">
+            <button id="balances" class="btn btn-outline-danger">Balance</button>
+            <b id="balance" class=" bg-secondary rounded text-light m-3 px-3 py-1">ETH</b>
+            <span class="badge text-secondary bg-warning shadow-lg p-2">need to connect</span>
+        </div>
+        
+        <div class="col">
+            <button id="chain" class="btn btn-outline-secondary">Chain Id</button>
+            <b id="chainId" class=" bg-secondary rounded text-light m-3 px-3 py-1">?</b>
+            <span class="badge text-secondary bg-warning shadow-lg p-2">need to connect</span>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <button id="cods" class="btn btn-primary">check block</button>
+        <b class="p-2 badge text-secondary bg-warning m-3">after click button, wait for transaction (or open console). no-need to connect.</b>
+        <section id="codeSection" class="bg-dark text-light p-3 mt-3 rounded shadow-lg">click (check block) button</section>
+    </div>
+
+    <footer class="container-fluid text-center py-2">
+        <hr>
+        2023 Ethersjs example - github @mosi-sol
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
