@@ -17,9 +17,10 @@ example wallet connect, without external libs. (run in webserver)
 <html>
 <head>
   <title>Web3 Wallet Connect Example</title>
+  <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
 </head>
 <body>
-  <button id="connect-button">Connect to Wallet</button>
+  <button id="connect-button" class="btn btn-primary m-5">Connect to Wallet</button>
   <script>
     const connectButton = document.getElementById('connect-button');
     const provider = window.ethereum;
