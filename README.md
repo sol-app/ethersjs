@@ -11,6 +11,7 @@ ethersjs v6 have different method for detecting web3
 - block iran - [5.7.2](https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.min.js)
 
 ### example:
+example wallet connect, without external libs.
 ```html
 <!DOCTYPE html>
 <html>
